@@ -27,7 +27,7 @@ yarn-error.log*
 .env
 
 
-# TV 
+# TV
 public/charting_library
 src/charting_library
 public/datafeeds

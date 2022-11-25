@@ -87,9 +87,8 @@ function TradePageInner() {
     document.title = marketName ? `${marketName} — Serum` : 'Serum';
   }, [marketName]);
 
-  const changeOrderRef = useRef<
-    ({ size, price }: { size?: number; price?: number }) => void
-  >();
+  const changeOrderRef =
+    useRef<({ size, price }: { size?: number; price?: number }) => void>();
 
   useEffect(() => {
     const handleResize = () => {

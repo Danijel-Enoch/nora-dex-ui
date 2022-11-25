@@ -1,10 +1,12 @@
 import * as React from 'react';
 import './index.css';
+
 import {
   widget,
   ChartingLibraryWidgetOptions,
   IChartingLibraryWidget,
 } from '../../charting_library';
+
 import { useMarket, USE_MARKETS } from '../../utils/markets';
 import * as saveLoadAdapter from './saveLoadAdapter';
 import { flatten } from '../../utils/utils';
@@ -77,8 +79,10 @@ export const TVChartContainer = () => {
       datafeed: new (window as any).Datafeeds.UDFCompatibleDatafeed(
         defaultProps.datafeedUrl,
       ),
-      interval: defaultProps.interval as ChartingLibraryWidgetOptions['interval'],
-      container_id: defaultProps.containerId as ChartingLibraryWidgetOptions['container_id'],
+      interval:
+        defaultProps.interval as ChartingLibraryWidgetOptions['interval'],
+      container_id:
+        defaultProps.containerId as ChartingLibraryWidgetOptions['container_id'],
       library_path: defaultProps.libraryPath as string,
       auto_save_delay: 5,
 
