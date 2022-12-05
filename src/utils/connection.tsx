@@ -8,7 +8,9 @@ import { ConnectionContextValues, EndpointInfo } from './types';
 export const ENDPOINTS: EndpointInfo[] = [
   {
     name: 'mainnet-beta',
-    endpoint: 'https://solana-api.projectserum.com',
+    endpoint:
+      process.env.REACT_APP_SOLANA_RPC_ENDPOINT ||
+      'https://solana-api.projectserum.com',
     custom: false,
   },
   { name: 'localnet', endpoint: 'http://127.0.0.1:8899', custom: false },
@@ -16,9 +18,8 @@ export const ENDPOINTS: EndpointInfo[] = [
 
 const accountListenerCount = new Map();
 
-const ConnectionContext: React.Context<null | ConnectionContextValues> = React.createContext<null | ConnectionContextValues>(
-  null,
-);
+const ConnectionContext: React.Context<null | ConnectionContextValues> =
+  React.createContext<null | ConnectionContextValues>(null);
 
 export function ConnectionProvider({ children }) {
   const [endpoint, setEndpoint] = useLocalStorageState<string>(
@@ -30,12 +31,14 @@ export function ConnectionProvider({ children }) {
   >('customConnectionEndpoints', []);
   const availableEndpoints = ENDPOINTS.concat(customEndpoints);
 
-  const connection = useMemo(() => new Connection(endpoint, 'recent'), [
-    endpoint,
-  ]);
-  const sendConnection = useMemo(() => new Connection(endpoint, 'recent'), [
-    endpoint,
-  ]);
+  const connection = useMemo(
+    () => new Connection(endpoint, 'recent'),
+    [endpoint],
+  );
+  const sendConnection = useMemo(
+    () => new Connection(endpoint, 'recent'),
+    [endpoint],
+  );
 
   // The websocket library solana/web3.js uses closes its websocket connection when the subscription list
   // is empty after opening its first time, preventing subsequent subscriptions from receiving responses.
