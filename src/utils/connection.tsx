@@ -9,7 +9,8 @@ export const ENDPOINTS: EndpointInfo[] = [
   {
     name: 'mainnet-beta',
     endpoint:
-      process.env.SOLANA_RPC_ENDPOINT || 'https://solana-api.projectserum.com',
+      process.env.REACT_APP_SOLANA_RPC_ENDPOINT ||
+      'https://solana-api.projectserum.com',
     custom: false,
   },
   { name: 'localnet', endpoint: 'http://127.0.0.1:8899', custom: false },
