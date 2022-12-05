@@ -8,7 +8,7 @@ const Wrapper = styled.div`
 `;
 
 export default function FloatingElement({
-  style = undefined,
+  style = {},
   children,
   stretchVertical = false,
 }) {
