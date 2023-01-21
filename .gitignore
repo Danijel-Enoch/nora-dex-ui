@@ -28,6 +28,4 @@ yarn-error.log*
 
 
 # TV
-public/charting_library
-src/charting_library
-public/datafeeds
+
