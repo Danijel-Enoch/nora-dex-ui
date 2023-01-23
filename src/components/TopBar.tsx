@@ -48,7 +48,7 @@ const EXTERNAL_LINKS = {
 	'/developer-resources': 'https://serum-academy.com/en/developer-resources/',
 	'/explorer': 'https://solscan.io',
 	'/srm-faq': 'https://projectserum.com/srm-faq',
-	'/swap': 'https://swap.projectserum.com',
+	'/swap': '#',
 };
 
 export default function TopBar() {
@@ -144,11 +144,11 @@ export default function TopBar() {
 				<LogoWrapper onClick={() => history.push(tradePageUrl)}>
 					<img
 						src={
-							'https://res.cloudinary.com/daniel23/image/upload/v1674340556/NORA_WHITE_ybycjt.svg'
+							'https://res.cloudinary.com/daniel23/image/upload/v1674503972/NORA_rdktho.png'
 						}
 						alt=""
 					/>
-					{'SERUM'}
+					{'NORA'}
 				</LogoWrapper>
 				<Menu
 					mode="horizontal"
@@ -219,13 +219,7 @@ export default function TopBar() {
 						</Menu.Item>
 					)} */}
 					{!searchFocussed && (
-						<Menu.SubMenu
-							title="LEARN"
-							onTitleClick={() =>
-								window.open(EXTERNAL_LINKS['/learn'], '_blank')
-							}
-							style={{ margin: '0 0px 0 10px' }}
-						>
+						<Menu.SubMenu style={{ margin: '0 0px 0 10px' }}>
 							<Menu.Item key="/add-market">
 								<a
 									href={EXTERNAL_LINKS['/add-market']}
