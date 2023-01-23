@@ -1,4 +1,4 @@
-# Serum DEX UI
+# NOra DEX UI
 
 An implementation of a UI for the Serum DEX.
 
