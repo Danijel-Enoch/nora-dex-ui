@@ -38,7 +38,7 @@ export const _MARKETS = [
     programId: new PublicKey('srmqPvymJeFKQ4zGQed1GFppgkRHL9kaELCbyksJtPX'),
   },
   {
-    name: 'BONK/USDT',
+    name: 'BONK/USDC',
     deprecated: false,
     address: new PublicKey('8PhnCfgqpgFM7ZJvttGdBVMXHuU4Q23ACxCvWkbs1M71'),
     programId: new PublicKey('srmqPvymJeFKQ4zGQed1GFppgkRHL9kaELCbyksJtPX'),

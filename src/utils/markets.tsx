@@ -206,15 +206,15 @@ export function getMarketDetails(
 	);
 	const baseCurrency =
 		(market?.baseMintAddress &&
-			_TOKEN_MINTS.find(
-				(token) => token.address === market.baseMintAddress,
+			TOKEN_MINTS.find((token) =>
+				token.address.equals(market.baseMintAddress),
 			)?.name) ||
 		(marketInfo?.baseLabel && `${marketInfo?.baseLabel}*`) ||
 		'UNKNOWN';
 	const quoteCurrency =
 		(market?.quoteMintAddress &&
-			_TOKEN_MINTS.find(
-				(token) => token.address === market.quoteMintAddress,
+			TOKEN_MINTS.find((token) =>
+				token.address.equals(market.quoteMintAddress),
 			)?.name) ||
 		(marketInfo?.quoteLabel && `${marketInfo?.quoteLabel}*`) ||
 		'UNKNOWN';
