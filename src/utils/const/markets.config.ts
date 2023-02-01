@@ -97,7 +97,7 @@ export const _MARKETS = [
     deprecated: false,
     address: new PublicKey('BEhRuJZiKwTdVTsGYjbHRh9RmGbKBtT6xo7yPqxLiSSY'),
     programId: new PublicKey('srmqPvymJeFKQ4zGQed1GFppgkRHL9kaELCbyksJtPX'),
-  },
+  }
   
   // ,{
   //   name: 'BTC/USDT',
