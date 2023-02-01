@@ -3,7 +3,7 @@ import { TOKEN_MINTS } from '@project-serum/serum';
 export const _TOKEN_MINTS = [
 	{
 		address: new PublicKey("1C2EYVrwmoXAGbiKirFFBeDFDYUBHPhDeg9trhibTND"),
-		"name": "NORA"
+		"name": "NRA"
 	},
 	{
 		"address": new PublicKey("EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"),
