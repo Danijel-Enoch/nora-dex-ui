@@ -8,9 +8,27 @@ export const _MARKETS = [
     programId: new PublicKey('srmqPvymJeFKQ4zGQed1GFppgkRHL9kaELCbyksJtPX'),
   },
   {
+    name: 'NRA/USDC',
+    deprecated: false,
+    address: new PublicKey('C3Hv6qZfoB2TxDQBy8UWJ3y1q4kZhMHsp1goLq3sb7xu'),
+    programId: new PublicKey('srmqPvymJeFKQ4zGQed1GFppgkRHL9kaELCbyksJtPX'),
+  },
+  {
     name: 'SOL/USDC',
     deprecated: false,
     address: new PublicKey('8BnEgHoWFysVcuFFX7QztDmzuH8r5ZFvyP3sYwn1XTh6'),
+    programId: new PublicKey('srmqPvymJeFKQ4zGQed1GFppgkRHL9kaELCbyksJtPX'),
+  },
+  {
+    name: 'WOOF/USDC',
+    deprecated: false,
+    address: new PublicKey('iufycE4CrRMVHkgym27q28SEyCZ3ZHsN3rLxbPXA7m2'),
+    programId: new PublicKey('srmqPvymJeFKQ4zGQed1GFppgkRHL9kaELCbyksJtPX'),
+  },
+  {
+    name: 'MOLA/USDC',
+    deprecated: false,
+    address: new PublicKey('HE1nibjUq5cTi6Zer5679od58PDAjtPAjTetUuV5XMPn'),
     programId: new PublicKey('srmqPvymJeFKQ4zGQed1GFppgkRHL9kaELCbyksJtPX'),
   },
   {
@@ -61,7 +79,26 @@ export const _MARKETS = [
     deprecated: false,
     address: new PublicKey('8PhnCfgqpgFM7ZJvttGdBVMXHuU4Q23ACxCvWkbs1M71'),
     programId: new PublicKey('srmqPvymJeFKQ4zGQed1GFppgkRHL9kaELCbyksJtPX'),
-  }
+  },
+  {
+    name: 'SOLDOGE/USDC',
+    deprecated: false,
+    address: new PublicKey('Gmjq4394AB5eVtL4ELTraDVgXAn62Mk4r58H3xW5aTAe'),
+    programId: new PublicKey('srmqPvymJeFKQ4zGQed1GFppgkRHL9kaELCbyksJtPX'),
+  },
+  {
+    name: 'ARB/USDC',
+    deprecated: false,
+    address: new PublicKey('9tzZzEHsKnwFL1A3DyFJwj36KnZj3gZ7g4srWp9YTEoh'),
+    programId: new PublicKey('srmqPvymJeFKQ4zGQed1GFppgkRHL9kaELCbyksJtPX'),
+  },
+  {
+    name: 'ORCA/USDC',
+    deprecated: false,
+    address: new PublicKey('BEhRuJZiKwTdVTsGYjbHRh9RmGbKBtT6xo7yPqxLiSSY'),
+    programId: new PublicKey('srmqPvymJeFKQ4zGQed1GFppgkRHL9kaELCbyksJtPX'),
+  },
+  
   // ,{
   //   name: 'BTC/USDT',
   //   deprecated: false,

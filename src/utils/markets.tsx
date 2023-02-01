@@ -190,7 +190,7 @@ const _SLOW_REFRESH_INTERVAL = 5 * 1000;
 const _FAST_REFRESH_INTERVAL = 1000;
 
 export const DEFAULT_MARKET = USE_MARKETS.find(
-	({ name, deprecated }) => name === 'SOL/USDC' && !deprecated,
+	({ name, deprecated }) => name === 'NRA/USDC' && !deprecated,
 );
 
 export function getMarketDetails(
