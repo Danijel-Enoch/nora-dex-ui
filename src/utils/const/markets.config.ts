@@ -58,7 +58,7 @@ export const _MARKETS = [
   {
     name: 'ARB/USDC',
     deprecated: false,
-    address: new PublicKey('B5xCudgPvVetTL3M4ExtPuAFTnCr2hdQ3cte9LhGAuBee'),
+    address: new PublicKey('5xCudgPvVetTL3M4ExtPuAFTnCr2hdQ3cte9LhGAuBee'),
     programId: new PublicKey('srmqPvymJeFKQ4zGQed1GFppgkRHL9kaELCbyksJtPX'),
   },
   {
