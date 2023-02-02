@@ -81,7 +81,7 @@ export const _MARKETS = [
     programId: new PublicKey('srmqPvymJeFKQ4zGQed1GFppgkRHL9kaELCbyksJtPX'),
   }
   
-  // ,{
+  // {
   //   name: 'BTC/USDT',
   //   deprecated: false,
   //   address: new PublicKey('C1EuT9VokAKLiW7i2ASnZUvxDoKuKkCpDDeNxAptuNe4'),
