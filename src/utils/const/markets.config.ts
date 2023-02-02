@@ -93,5 +93,5 @@ export const _MARKETS = [
   //   deprecated: false,
   //   address: new PublicKey('A8YFbxQYFVqKZaoYJLLUVcQiWP7G2MeEgW5wsAQgMvFw'),
   //   programId: new PublicKey('srmqPvymJeFKQ4zGQed1GFppgkRHL9kaELCbyksJtPX'),
-  // }
+ // }
 ];
