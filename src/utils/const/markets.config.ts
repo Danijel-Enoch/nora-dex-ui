@@ -49,14 +49,12 @@ export const _MARKETS = [
     address: new PublicKey('3NnxQvDcZXputNMxaxsGvqiKpqgPfSYXpNigZNFcknmD'),
     programId: new PublicKey('srmqPvymJeFKQ4zGQed1GFppgkRHL9kaELCbyksJtPX'),
   },
-  
   {
     name: 'ETH/USDT',
     deprecated: false,
     address: new PublicKey('BbJgE7HZMaDp5NTYvRh5jZSkQPVDTU8ubPFtpogUkEj4'),
     programId: new PublicKey('srmqPvymJeFKQ4zGQed1GFppgkRHL9kaELCbyksJtPX'),
   },
-  
   {
     name: 'BONK/USDC',
     deprecated: false,
