@@ -70,7 +70,7 @@ export const _MARKETS = [
   {
     name: 'ARB/USDC',
     deprecated: false,
-    address: new PublicKey('9tzZzEHsKnwFL1A3DyFJwj36KnZj3gZ7g4srWp9YTEoh'),
+    address: new PublicKey('5xCudgPvVetTL3M4ExtPuAFTnCr2hdQ3cte9LhGAuBee'),
     programId: new PublicKey('srmqPvymJeFKQ4zGQed1GFppgkRHL9kaELCbyksJtPX'),
   },
   {

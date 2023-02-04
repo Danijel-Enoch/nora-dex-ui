@@ -70,6 +70,18 @@ export const _TOKEN_MINTS = [
 		"name": "USDT"
 	},
 	{
+		"address": new PublicKey("8ymi88q5DtmdNTn2sPRNFkvMkszMHuLJ1e3RVdWjPa3s"),
+		"name": "SOLDOGE"
+	},
+    {
+		"address": new PublicKey("9tzZzEHsKnwFL1A3DyFJwj36KnZj3gZ7g4srWp9YTEoh"),
+		"name": "ARBITRAGE"
+	},
+    {
+		"address": new PublicKey("orcaEKTdK7LKz57vaAYr9QeNsVEPfiu6QeMU1kektZE"),
+		"name": "ORCA"
+	},
+    {
 		"address": new PublicKey("8FU95xFJhUUkyyCLU13HSzDLs7oC4QZdXQHL6SCeab36"),
 		"name": "WUNI"
 	},
