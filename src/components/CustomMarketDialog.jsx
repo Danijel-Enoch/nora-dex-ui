@@ -4,6 +4,7 @@ import { notify } from '../utils/notifications';
 import { isValidPublicKey } from '../utils/utils';
 import { PublicKey } from '@solana/web3.js';
 import { Market, MARKETS, TOKEN_MINTS } from '@project-serum/serum';
+import { _TOKEN_MINTS } from '../utils/const/token_mints';
 import { useAccountInfo, useConnection } from '../utils/connection';
 import { LoadingOutlined } from '@ant-design/icons';
 
@@ -72,12 +73,12 @@ export default function CustomMarketDialog({
   );
   const knownBaseCurrency =
     market?.baseMintAddress &&
-    TOKEN_MINTS.find((token) => token.address.equals(market.baseMintAddress))
+    _TOKEN_MINTS.find((token) => token.address.equals(market.baseMintAddress))
       ?.name;
 
   const knownQuoteCurrency =
     market?.quoteMintAddress &&
-    TOKEN_MINTS.find((token) => token.address.equals(market.quoteMintAddress))
+    _TOKEN_MINTS.find((token) => token.address.equals(market.quoteMintAddress))
       ?.name;
 
   const canSubmit =
